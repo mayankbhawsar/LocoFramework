@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34AE3DF37707A4EBFEF51A49 /* Pods_LOCO_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5128A785994AC0B1A1836E7 /* Pods_LOCO_Test.framework */; };
+		84E53C102871E9C300341148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E53C0F2871E9C300341148 /* AppDelegate.swift */; };
+		84E53C122871E9C300341148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E53C112871E9C300341148 /* SceneDelegate.swift */; };
+		84E53C142871E9C300341148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E53C132871E9C300341148 /* ViewController.swift */; };
+		84E53C172871E9C300341148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E53C152871E9C300341148 /* Main.storyboard */; };
+		84E53C192871E9C700341148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E53C182871E9C700341148 /* Assets.xcassets */; };
+		84E53C1C2871E9C700341148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E53C1A2871E9C700341148 /* LaunchScreen.storyboard */; };
+		84E53C272871E9C700341148 /* LOCO_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E53C262871E9C700341148 /* LOCO_TestTests.swift */; };
+		84E53C312871E9C700341148 /* LOCO_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E53C302871E9C700341148 /* LOCO_TestUITests.swift */; };
+		84E53C332871E9C700341148 /* LOCO_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E53C322871E9C700341148 /* LOCO_TestUITestsLaunchTests.swift */; };
+		B6DD28E7A5D0703EFCA87A60 /* Pods_LOCO_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFEC7802F69ECE49D98FFD4 /* Pods_LOCO_TestTests.framework */; };
+		FE49D99A7051B26E56D7490D /* Pods_LOCO_Test_LOCO_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C37A49CA5B7D5277A09533 /* Pods_LOCO_Test_LOCO_TestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E53C232871E9C700341148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E53C042871E9C300341148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E53C0B2871E9C300341148;
+			remoteInfo = "LOCO Test";
+		};
+		84E53C2D2871E9C700341148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E53C042871E9C300341148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E53C0B2871E9C300341148;
+			remoteInfo = "LOCO Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27C37A49CA5B7D5277A09533 /* Pods_LOCO_Test_LOCO_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOCO_Test_LOCO_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669490ACB8DC7FF623BDBB48 /* Pods-LOCO TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOCO TestTests.release.xcconfig"; path = "Target Support Files/Pods-LOCO TestTests/Pods-LOCO TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6FF3A73844ADBBDEA4C7764C /* Pods-LOCO Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOCO Test.debug.xcconfig"; path = "Target Support Files/Pods-LOCO Test/Pods-LOCO Test.debug.xcconfig"; sourceTree = "<group>"; };
+		823CC2B9C77425527F961A5A /* Pods-LOCO TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOCO TestTests.debug.xcconfig"; path = "Target Support Files/Pods-LOCO TestTests/Pods-LOCO TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84E53C0C2871E9C300341148 /* LOCO Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LOCO Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E53C0F2871E9C300341148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E53C112871E9C300341148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84E53C132871E9C300341148 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E53C162871E9C300341148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E53C182871E9C700341148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E53C1B2871E9C700341148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E53C1D2871E9C700341148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E53C222871E9C700341148 /* LOCO TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LOCO TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E53C262871E9C700341148 /* LOCO_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOCO_TestTests.swift; sourceTree = "<group>"; };
+		84E53C2C2871E9C700341148 /* LOCO TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LOCO TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E53C302871E9C700341148 /* LOCO_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOCO_TestUITests.swift; sourceTree = "<group>"; };
+		84E53C322871E9C700341148 /* LOCO_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOCO_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FFEC7802F69ECE49D98FFD4 /* Pods_LOCO_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOCO_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5DB6E3629B3DA29C7FCC00 /* Pods-LOCO Test-LOCO TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOCO Test-LOCO TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2E3E11C6DB3DCC8DF6AFF0 /* Pods-LOCO Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOCO Test.release.xcconfig"; path = "Target Support Files/Pods-LOCO Test/Pods-LOCO Test.release.xcconfig"; sourceTree = "<group>"; };
+		D5128A785994AC0B1A1836E7 /* Pods_LOCO_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOCO_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC59BDF7D8AF8AE276C1779 /* Pods-LOCO Test-LOCO TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOCO Test-LOCO TestUITests.release.xcconfig"; path = "Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E53C092871E9C300341148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AE3DF37707A4EBFEF51A49 /* Pods_LOCO_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E53C1F2871E9C700341148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DD28E7A5D0703EFCA87A60 /* Pods_LOCO_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E53C292871E9C700341148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE49D99A7051B26E56D7490D /* Pods_LOCO_Test_LOCO_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FB4B519545C391BF39F42F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5128A785994AC0B1A1836E7 /* Pods_LOCO_Test.framework */,
+				27C37A49CA5B7D5277A09533 /* Pods_LOCO_Test_LOCO_TestUITests.framework */,
+				9FFEC7802F69ECE49D98FFD4 /* Pods_LOCO_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60F338E9A9F0BDD86CF9F986 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FF3A73844ADBBDEA4C7764C /* Pods-LOCO Test.debug.xcconfig */,
+				BC2E3E11C6DB3DCC8DF6AFF0 /* Pods-LOCO Test.release.xcconfig */,
+				BB5DB6E3629B3DA29C7FCC00 /* Pods-LOCO Test-LOCO TestUITests.debug.xcconfig */,
+				DAC59BDF7D8AF8AE276C1779 /* Pods-LOCO Test-LOCO TestUITests.release.xcconfig */,
+				823CC2B9C77425527F961A5A /* Pods-LOCO TestTests.debug.xcconfig */,
+				669490ACB8DC7FF623BDBB48 /* Pods-LOCO TestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84E53C032871E9C300341148 = {
+			isa = PBXGroup;
+			children = (
+				84E53C0E2871E9C300341148 /* LOCO Test */,
+				84E53C252871E9C700341148 /* LOCO TestTests */,
+				84E53C2F2871E9C700341148 /* LOCO TestUITests */,
+				84E53C0D2871E9C300341148 /* Products */,
+				60F338E9A9F0BDD86CF9F986 /* Pods */,
+				46FB4B519545C391BF39F42F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E53C0D2871E9C300341148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E53C0C2871E9C300341148 /* LOCO Test.app */,
+				84E53C222871E9C700341148 /* LOCO TestTests.xctest */,
+				84E53C2C2871E9C700341148 /* LOCO TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E53C0E2871E9C300341148 /* LOCO Test */ = {
+			isa = PBXGroup;
+			children = (
+				84E53C0F2871E9C300341148 /* AppDelegate.swift */,
+				84E53C112871E9C300341148 /* SceneDelegate.swift */,
+				84E53C132871E9C300341148 /* ViewController.swift */,
+				84E53C152871E9C300341148 /* Main.storyboard */,
+				84E53C182871E9C700341148 /* Assets.xcassets */,
+				84E53C1A2871E9C700341148 /* LaunchScreen.storyboard */,
+				84E53C1D2871E9C700341148 /* Info.plist */,
+			);
+			path = "LOCO Test";
+			sourceTree = "<group>";
+		};
+		84E53C252871E9C700341148 /* LOCO TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E53C262871E9C700341148 /* LOCO_TestTests.swift */,
+			);
+			path = "LOCO TestTests";
+			sourceTree = "<group>";
+		};
+		84E53C2F2871E9C700341148 /* LOCO TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E53C302871E9C700341148 /* LOCO_TestUITests.swift */,
+				84E53C322871E9C700341148 /* LOCO_TestUITestsLaunchTests.swift */,
+			);
+			path = "LOCO TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E53C0B2871E9C300341148 /* LOCO Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E53C362871E9C700341148 /* Build configuration list for PBXNativeTarget "LOCO Test" */;
+			buildPhases = (
+				736D97056D31251CD8ED088C /* [CP] Check Pods Manifest.lock */,
+				84E53C082871E9C300341148 /* Sources */,
+				84E53C092871E9C300341148 /* Frameworks */,
+				84E53C0A2871E9C300341148 /* Resources */,
+				B9C2FE765F515A048CC49567 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LOCO Test";
+			productName = "LOCO Test";
+			productReference = 84E53C0C2871E9C300341148 /* LOCO Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E53C212871E9C700341148 /* LOCO TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E53C392871E9C700341148 /* Build configuration list for PBXNativeTarget "LOCO TestTests" */;
+			buildPhases = (
+				D5F9F49C0EBF7949769184E9 /* [CP] Check Pods Manifest.lock */,
+				84E53C1E2871E9C700341148 /* Sources */,
+				84E53C1F2871E9C700341148 /* Frameworks */,
+				84E53C202871E9C700341148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E53C242871E9C700341148 /* PBXTargetDependency */,
+			);
+			name = "LOCO TestTests";
+			productName = "LOCO TestTests";
+			productReference = 84E53C222871E9C700341148 /* LOCO TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E53C2B2871E9C700341148 /* LOCO TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E53C3C2871E9C700341148 /* Build configuration list for PBXNativeTarget "LOCO TestUITests" */;
+			buildPhases = (
+				9B9BFC03FE2E61AE3260AC1C /* [CP] Check Pods Manifest.lock */,
+				84E53C282871E9C700341148 /* Sources */,
+				84E53C292871E9C700341148 /* Frameworks */,
+				84E53C2A2871E9C700341148 /* Resources */,
+				18F5FEF3B596FA95E1D177BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E53C2E2871E9C700341148 /* PBXTargetDependency */,
+			);
+			name = "LOCO TestUITests";
+			productName = "LOCO TestUITests";
+			productReference = 84E53C2C2871E9C700341148 /* LOCO TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E53C042871E9C300341148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					84E53C0B2871E9C300341148 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					84E53C212871E9C700341148 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 84E53C0B2871E9C300341148;
+					};
+					84E53C2B2871E9C700341148 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 84E53C0B2871E9C300341148;
+					};
+				};
+			};
+			buildConfigurationList = 84E53C072871E9C300341148 /* Build configuration list for PBXProject "LOCO Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E53C032871E9C300341148;
+			productRefGroup = 84E53C0D2871E9C300341148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E53C0B2871E9C300341148 /* LOCO Test */,
+				84E53C212871E9C700341148 /* LOCO TestTests */,
+				84E53C2B2871E9C700341148 /* LOCO TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E53C0A2871E9C300341148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E53C1C2871E9C700341148 /* LaunchScreen.storyboard in Resources */,
+				84E53C192871E9C700341148 /* Assets.xcassets in Resources */,
+				84E53C172871E9C300341148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E53C202871E9C700341148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E53C2A2871E9C700341148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18F5FEF3B596FA95E1D177BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736D97056D31251CD8ED088C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOCO Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B9BFC03FE2E61AE3260AC1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOCO Test-LOCO TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C2FE765F515A048CC49567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOCO Test/Pods-LOCO Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LOCO Test/Pods-LOCO Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LOCO Test/Pods-LOCO Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F9F49C0EBF7949769184E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LOCO TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E53C082871E9C300341148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E53C142871E9C300341148 /* ViewController.swift in Sources */,
+				84E53C102871E9C300341148 /* AppDelegate.swift in Sources */,
+				84E53C122871E9C300341148 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E53C1E2871E9C700341148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E53C272871E9C700341148 /* LOCO_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E53C282871E9C700341148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E53C312871E9C700341148 /* LOCO_TestUITests.swift in Sources */,
+				84E53C332871E9C700341148 /* LOCO_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E53C242871E9C700341148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E53C0B2871E9C300341148 /* LOCO Test */;
+			targetProxy = 84E53C232871E9C700341148 /* PBXContainerItemProxy */;
+		};
+		84E53C2E2871E9C700341148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E53C0B2871E9C300341148 /* LOCO Test */;
+			targetProxy = 84E53C2D2871E9C700341148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E53C152871E9C300341148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E53C162871E9C300341148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E53C1A2871E9C700341148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E53C1B2871E9C700341148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E53C342871E9C700341148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E53C352871E9C700341148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E53C372871E9C700341148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF3A73844ADBBDEA4C7764C /* Pods-LOCO Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU5FFN8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LOCO Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntMedia.LOCO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E53C382871E9C700341148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2E3E11C6DB3DCC8DF6AFF0 /* Pods-LOCO Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU5FFN8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "LOCO Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntMedia.LOCO-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E53C3A2871E9C700341148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823CC2B9C77425527F961A5A /* Pods-LOCO TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU5FFN8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntMedia.LOCO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOCO Test.app/LOCO Test";
+			};
+			name = Debug;
+		};
+		84E53C3B2871E9C700341148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669490ACB8DC7FF623BDBB48 /* Pods-LOCO TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU5FFN8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntMedia.LOCO-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LOCO Test.app/LOCO Test";
+			};
+			name = Release;
+		};
+		84E53C3D2871E9C700341148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5DB6E3629B3DA29C7FCC00 /* Pods-LOCO Test-LOCO TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU5FFN8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntMedia.LOCO-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LOCO Test";
+			};
+			name = Debug;
+		};
+		84E53C3E2871E9C700341148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC59BDF7D8AF8AE276C1779 /* Pods-LOCO Test-LOCO TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AU5FFN8K99;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntMedia.LOCO-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LOCO Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E53C072871E9C300341148 /* Build configuration list for PBXProject "LOCO Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E53C342871E9C700341148 /* Debug */,
+				84E53C352871E9C700341148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E53C362871E9C700341148 /* Build configuration list for PBXNativeTarget "LOCO Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E53C372871E9C700341148 /* Debug */,
+				84E53C382871E9C700341148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E53C392871E9C700341148 /* Build configuration list for PBXNativeTarget "LOCO TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E53C3A2871E9C700341148 /* Debug */,
+				84E53C3B2871E9C700341148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E53C3C2871E9C700341148 /* Build configuration list for PBXNativeTarget "LOCO TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E53C3D2871E9C700341148 /* Debug */,
+				84E53C3E2871E9C700341148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E53C042871E9C300341148 /* Project object */;
+}

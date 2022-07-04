@@ -1,0 +1,6 @@
+framework module Pods_LOCO_TestTests {
+  umbrella header "Pods-LOCO TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

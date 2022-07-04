@@ -1,0 +1,1275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D0F9906E6274F1F0E1CEE1898393B2 /* Pods-LOCO TestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A797D045FF2BB3111D4DA754A6A323D /* Pods-LOCO TestTests-dummy.m */; };
+		06305CFF4EFF1CF83C0E86E03EF3FDF3 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */; };
+		0F68866DA6ECF1E7991615BBEAB8AB07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13D9C59FAF7222C98A6FCB08F734B04B /* Pods-LOCO Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83DFC97328294C629B1200C54D6FCEC2 /* Pods-LOCO Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A026551D937B257E5A48826A0D6D16 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18002B686696DFD9E2137A26FA1CF804 /* Framer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */; };
+		1F6B3C9EABC31D2C063CFF8611E21ED3 /* WebSocketServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */; };
+		2028286436171ECC4D0A103AC87E8417 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */; };
+		219D62D18B0715481D8ED112E90178F9 /* FoundationTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */; };
+		29867A420DEA0601AD49C757984C865B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2FE6DEDF501ED2B304144E2409786C46 /* Pods-LOCO Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C320D2DE7F6929EB0CDA55371B390D03 /* Pods-LOCO Test-dummy.m */; };
+		30C96CEAF92639F36F82219C13A83F0E /* StringHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */; };
+		341481F372677E9CA94E6C4F40B231D1 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */; };
+		35CC420BE25881D53BC6381B01B52B09 /* LocoFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE87E4212B3ACE066022F59CC9410D09 /* LocoFramework-dummy.m */; };
+		378370DB507C9FCCD7EF02D8A2717ECB /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */; };
+		39C7FF04486D786A0E4A3DD95EFD10F8 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */; };
+		3B529FE614AD05BB12E9D9BA6179C318 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E96DCE002A819F03AECC994EB19C6 /* Service.swift */; };
+		41498FD645C375B00620F72F0F0325AB /* Pods-LOCO Test-LOCO TestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB307C5D139C314248B9A45FAB9D255E /* Pods-LOCO Test-LOCO TestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42068E1C67D65DC23B20BA6EDB2F02D7 /* LocoFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63589FB5843A97171FFA416F25FF5D48 /* LocoFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455A997042B4CE6C0CB3FD5EA75E2DC1 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */; };
+		5E03660E899689127F304F471570AB44 /* WSCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */; };
+		79869221D785202277B1E88B2915AEAF /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */; };
+		9B9F4B2069B673D75009E5E7E5198858 /* Pods-LOCO TestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370F8E6663C82B831AC8AA6EDA6621AD /* Pods-LOCO TestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0394FF0218C84CD00A2E418520FDF2A /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */; };
+		B218F1F4A808D1ED76D344586C4B62DE /* Pods-LOCO Test-LOCO TestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7B173D0BD54EF8B5FFCBB1B1804BA3 /* Pods-LOCO Test-LOCO TestUITests-dummy.m */; };
+		B2831B02B1BB2D68839EF5F6A036379E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B508E78BBC7363824DB90BA7052BDC1B /* FoundationSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */; };
+		BE91230853DE4D4F73CC699B04CFAE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA47D9312926F2B9FD63AB318B537AF6 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */; };
+		D111EA445C13A219FE36219280FDBF2F /* TCPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */; };
+		D19BEEDACA2B4CCF3716D4AE1A6DBC55 /* NativeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */; };
+		D20ED933637514B98FE4B2075583B2EC /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */; };
+		D5FE07870C18A3696D0037C461DB1F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D6614D1295876D640161F50C231C3C59 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */; };
+		EB78D9E7D392EAF1ABB6BBA469488119 /* LocoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C457836624AA390848FA6E74DAF7A462 /* LocoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED9E4DEECDD84760469EB0E182259F54 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */; };
+		FE853283396F1A3744C2B7ACA268566B /* WSEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E92C9DC23C9CD1FE5C457040E509CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		4215E5289F16A5FA1B9D9C2BAEAB9F36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17897CFB681C5B96AF7A2A0D6A85B60C;
+			remoteInfo = LocoFramework;
+		};
+		6829801B3631EC72DD1311EDD7E1F584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17897CFB681C5B96AF7A2A0D6A85B60C;
+			remoteInfo = LocoFramework;
+		};
+		EB0675857815E5570CA9F9722FCC5D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		EE765AAF1CB867662679E1716A29531D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B78EE4AF6AE03E79D88886319853FF7;
+			remoteInfo = Starscream;
+		};
+		F1F9B48F3177ABD713D96FFB98B8FB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D609D403D144E3F723ACC0AA12E1A44;
+			remoteInfo = "Pods-LOCO Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010F5C43A348BC3C417C21FA354444E2 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		0164F8FAF96F8AF034A9F9F7E9AE6166 /* LocoFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocoFramework-prefix.pch"; sourceTree = "<group>"; };
+		09DFD7651F2AAF969A658B4CDF90976D /* Pods-LOCO TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOCO TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Framer.swift; path = Sources/Framer/Framer.swift; sourceTree = "<group>"; };
+		16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringHTTPHandler.swift; path = Sources/Framer/StringHTTPHandler.swift; sourceTree = "<group>"; };
+		17EB770E068F5AD3E40F3EFD7DEB5BFD /* Pods-LOCO Test-LOCO TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOCO Test-LOCO TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSCompression.swift; path = Sources/Compression/WSCompression.swift; sourceTree = "<group>"; };
+		21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.debug.xcconfig; sourceTree = "<group>"; };
+		2F9B59BEAD8CDF12EF9E199B20F85BA1 /* Pods-LOCO Test-LOCO TestUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LOCO Test-LOCO TestUITests"; path = Pods_LOCO_Test_LOCO_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		332ADC09DE0BD028139337A2068A71A2 /* Pods-LOCO Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LOCO Test.modulemap"; sourceTree = "<group>"; };
+		35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHandler.swift; path = Sources/Framer/HTTPHandler.swift; sourceTree = "<group>"; };
+		370F8E6663C82B831AC8AA6EDA6621AD /* Pods-LOCO TestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOCO TestTests-umbrella.h"; sourceTree = "<group>"; };
+		37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCollector.swift; path = Sources/Framer/FrameCollector.swift; sourceTree = "<group>"; };
+		3832D5A8D2D5704695833A42733AF018 /* Pods-LOCO TestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOCO TestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPHandler.swift; path = Sources/Framer/FoundationHTTPHandler.swift; sourceTree = "<group>"; };
+		3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationTransport.swift; path = Sources/Transport/FoundationTransport.swift; sourceTree = "<group>"; };
+		40C3E08218BE2B4B319821C019443A84 /* Pods-LOCO Test-LOCO TestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LOCO Test-LOCO TestUITests.modulemap"; sourceTree = "<group>"; };
+		4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Engine.swift; path = Sources/Engine/Engine.swift; sourceTree = "<group>"; };
+		4CD1DBDC77F195A814DBDDEF50519785 /* LocoFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocoFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Security.swift; path = Sources/Security/Security.swift; sourceTree = "<group>"; };
+		56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeEngine.swift; path = Sources/Engine/NativeEngine.swift; sourceTree = "<group>"; };
+		56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPTransport.swift; path = Sources/Transport/TCPTransport.swift; sourceTree = "<group>"; };
+		5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationSecurity.swift; path = Sources/Security/FoundationSecurity.swift; sourceTree = "<group>"; };
+		62D8E6908F434B8C1C0BBAF90B49FDA3 /* Pods-LOCO TestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOCO TestTests-Info.plist"; sourceTree = "<group>"; };
+		63589FB5843A97171FFA416F25FF5D48 /* LocoFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocoFramework-umbrella.h"; sourceTree = "<group>"; };
+		68465D19AE1DBFF3A41CCCEB700ED391 /* Pods-LOCO Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOCO Test-frameworks.sh"; sourceTree = "<group>"; };
+		6F805AA35ABCB175A9ABF7DAB8380E6D /* Pods-LOCO Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOCO Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/DataBytes/Data+Extensions.swift"; sourceTree = "<group>"; };
+		7291B0E1EF3A206FB94FE3C54774D698 /* Pods-LOCO Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOCO Test.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78525719AC71F26909C59CFD180E7D73 /* Pods-LOCO Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOCO Test.debug.xcconfig"; sourceTree = "<group>"; };
+		787D019902EA06472FD4C408B5711C9A /* Pods-LOCO Test-LOCO TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOCO Test-LOCO TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AD85BC639B5500AACB35CDA9DD13E1 /* Pods-LOCO Test-LOCO TestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LOCO Test-LOCO TestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoundationHTTPServerHandler.swift; path = Sources/Framer/FoundationHTTPServerHandler.swift; sourceTree = "<group>"; };
+		83DFC97328294C629B1200C54D6FCEC2 /* Pods-LOCO Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOCO Test-umbrella.h"; sourceTree = "<group>"; };
+		85C44A9AB6F12498BFC8233B9D599206 /* Starscream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Starscream-Info.plist"; sourceTree = "<group>"; };
+		891B2270823847ED23F2ECFC28F935EC /* Starscream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		893FFD7953B9C81B71DE7783B3FF0B57 /* LocoFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocoFramework-Info.plist"; sourceTree = "<group>"; };
+		8A05E1C4E11EC5E3D964BBB73665EC81 /* LocoFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoFramework.debug.xcconfig; sourceTree = "<group>"; };
+		8A797D045FF2BB3111D4DA754A6A323D /* Pods-LOCO TestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOCO TestTests-dummy.m"; sourceTree = "<group>"; };
+		8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WSEngine.swift; path = Sources/Engine/WSEngine.swift; sourceTree = "<group>"; };
+		92981D655299745129EC250E8B8CBA0E /* LocoFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocoFramework.modulemap; sourceTree = "<group>"; };
+		9357D61506695B4EDB5014C06BE56A43 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression/Compression.swift; sourceTree = "<group>"; };
+		A51F9837F2F6A9CD3482E52DA302A242 /* Pods-LOCO Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOCO Test-Info.plist"; sourceTree = "<group>"; };
+		A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketServer.swift; path = Sources/Server/WebSocketServer.swift; sourceTree = "<group>"; };
+		A6647EDFDC83C04A0D9271EAF9697ACD /* Pods-LOCO TestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LOCO TestTests.modulemap"; sourceTree = "<group>"; };
+		A87AF6B281CCA8A40AA8539660317101 /* Pods-LOCO TestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOCO TestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB307C5D139C314248B9A45FAB9D255E /* Pods-LOCO Test-LOCO TestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LOCO Test-LOCO TestUITests-umbrella.h"; sourceTree = "<group>"; };
+		B9FEC99F6480B872ABBFBE6AE74D766A /* Pods-LOCO Test */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LOCO Test"; path = Pods_LOCO_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F808100ACA0000A32FCED17A6A15C7 /* Pods-LOCO Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOCO Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		C320D2DE7F6929EB0CDA55371B390D03 /* Pods-LOCO Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOCO Test-dummy.m"; sourceTree = "<group>"; };
+		C42E96DCE002A819F03AECC994EB19C6 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = LocoFramework/Service.swift; sourceTree = "<group>"; };
+		C457836624AA390848FA6E74DAF7A462 /* LocoFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocoFramework.h; path = LocoFramework/LocoFramework.h; sourceTree = "<group>"; };
+		C81C218ABA6AD130B453E6DCE9C468C9 /* Pods-LOCO TestTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LOCO TestTests"; path = Pods_LOCO_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F757500B0D6E5D9F27975C18B0E5E7 /* Pods-LOCO Test-LOCO TestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOCO Test-LOCO TestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transport.swift; path = Sources/Transport/Transport.swift; sourceTree = "<group>"; };
+		DFCCD75B242864A226229B3E5F999F2B /* Pods-LOCO TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LOCO TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.release.xcconfig; sourceTree = "<group>"; };
+		EC7B173D0BD54EF8B5FFCBB1B1804BA3 /* Pods-LOCO Test-LOCO TestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LOCO Test-LOCO TestUITests-dummy.m"; sourceTree = "<group>"; };
+		ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		ED77A8AB8267300CC1913A3A8D925ADD /* Pods-LOCO Test-LOCO TestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LOCO Test-LOCO TestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EDC8F43F77A0DE0CF26ECB02F616C87A /* Pods-LOCO Test-LOCO TestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LOCO Test-LOCO TestUITests-Info.plist"; sourceTree = "<group>"; };
+		EE87E4212B3ACE066022F59CC9410D09 /* LocoFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocoFramework-dummy.m"; sourceTree = "<group>"; };
+		F2E9474471F62C6AB56C63C39BD3AD97 /* LocoFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoFramework.release.xcconfig; sourceTree = "<group>"; };
+		FE4BF6AC4F08E2DAAF4EBBF515BB013E /* LocoFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocoFramework; path = LocoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FB3ECD67349053B18CA13DC32F81E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FE07870C18A3696D0037C461DB1F3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBAD607F8327D76AE295650876BC0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F68866DA6ECF1E7991615BBEAB8AB07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24BA9E2283CFEF5F7764E375AE42505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29867A420DEA0601AD49C757984C865B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A510A51EB79D4AFAF6B89DFBBF60EFBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE91230853DE4D4F73CC699B04CFAE45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37E9AF1C16BD110838BC9417324A981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2831B02B1BB2D68839EF5F6A036379E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B2FEDCAC8A8BACE0F9A4E951E14F8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7629874EBAAE6E64DF87ACB68FB5A08E /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		046012D421B4CD347B4109022033A28B /* Pods-LOCO Test-LOCO TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40C3E08218BE2B4B319821C019443A84 /* Pods-LOCO Test-LOCO TestUITests.modulemap */,
+				ED77A8AB8267300CC1913A3A8D925ADD /* Pods-LOCO Test-LOCO TestUITests-acknowledgements.markdown */,
+				C8F757500B0D6E5D9F27975C18B0E5E7 /* Pods-LOCO Test-LOCO TestUITests-acknowledgements.plist */,
+				EC7B173D0BD54EF8B5FFCBB1B1804BA3 /* Pods-LOCO Test-LOCO TestUITests-dummy.m */,
+				81AD85BC639B5500AACB35CDA9DD13E1 /* Pods-LOCO Test-LOCO TestUITests-frameworks.sh */,
+				EDC8F43F77A0DE0CF26ECB02F616C87A /* Pods-LOCO Test-LOCO TestUITests-Info.plist */,
+				AB307C5D139C314248B9A45FAB9D255E /* Pods-LOCO Test-LOCO TestUITests-umbrella.h */,
+				787D019902EA06472FD4C408B5711C9A /* Pods-LOCO Test-LOCO TestUITests.debug.xcconfig */,
+				17EB770E068F5AD3E40F3EFD7DEB5BFD /* Pods-LOCO Test-LOCO TestUITests.release.xcconfig */,
+			);
+			name = "Pods-LOCO Test-LOCO TestUITests";
+			path = "Target Support Files/Pods-LOCO Test-LOCO TestUITests";
+			sourceTree = "<group>";
+		};
+		224C3D53FB5D12BCFD0E9942231DC4A0 /* LocoFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C457836624AA390848FA6E74DAF7A462 /* LocoFramework.h */,
+				C42E96DCE002A819F03AECC994EB19C6 /* Service.swift */,
+				87580B076039E4525AD2B34B6F7B0348 /* Pod */,
+				E7E9E85055D03E8A4C68CA925A8E9BE9 /* Support Files */,
+			);
+			name = LocoFramework;
+			path = ../../LocoFramework;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A8450208C10F1E2674F6CD9147A95DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F345980C8D5F9E910645E08AF4ED89 /* Pods-LOCO Test */,
+				046012D421B4CD347B4109022033A28B /* Pods-LOCO Test-LOCO TestUITests */,
+				7C6BB07574EF3546B5C79647F93AB0C6 /* Pods-LOCO TestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7629874EBAAE6E64DF87ACB68FB5A08E /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				A2EAFCD04DEECC2AC6B8727048A80617 /* Compression.swift */,
+				7175E21DED4337E7BBD3EF7424F315F6 /* Data+Extensions.swift */,
+				4A0925310BE76B051E1B51E7FBB37F35 /* Engine.swift */,
+				3AF39A541BA78B8472A0F9D4E3504B90 /* FoundationHTTPHandler.swift */,
+				81F95157FC4CC8593A1B1E4607562122 /* FoundationHTTPServerHandler.swift */,
+				5831A57C2E79638C447411ED69EB6C42 /* FoundationSecurity.swift */,
+				3D7E34251E9353A38AC748BB94EDC575 /* FoundationTransport.swift */,
+				37C291A02C054326B5C6022EACD814E4 /* FrameCollector.swift */,
+				1454E39E11FD28A611495E03B2015FD4 /* Framer.swift */,
+				35ED0E33A6DD024AC0E71FEF3EA74D7C /* HTTPHandler.swift */,
+				56ADCC3B462E7AE2D80872C7A66CA4A7 /* NativeEngine.swift */,
+				4FC292255BA6A323D7D1C01215CC6591 /* Security.swift */,
+				DFD212064ED1CC47B2560F6E20526B3B /* Server.swift */,
+				16D70531198624C7D8B14FF91C62FF6B /* StringHTTPHandler.swift */,
+				56CCA8582A00BBFBC2E9AFFC1C1D53A9 /* TCPTransport.swift */,
+				C9C8BC22AA74FEDA9CF44852D28F68A4 /* Transport.swift */,
+				4D2727BA14E02E7210DD6B547EA7D394 /* WebSocket.swift */,
+				A62AC07A9271D8996F97CC35856BA647 /* WebSocketServer.swift */,
+				1918C09D193EF7F62A7C2611F12AC44B /* WSCompression.swift */,
+				8ED9AF7BDFE0F03CE129D72D85FCA460 /* WSEngine.swift */,
+				C34F19E6E210C87A192216575C48E771 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		7C6BB07574EF3546B5C79647F93AB0C6 /* Pods-LOCO TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6647EDFDC83C04A0D9271EAF9697ACD /* Pods-LOCO TestTests.modulemap */,
+				3832D5A8D2D5704695833A42733AF018 /* Pods-LOCO TestTests-acknowledgements.markdown */,
+				A87AF6B281CCA8A40AA8539660317101 /* Pods-LOCO TestTests-acknowledgements.plist */,
+				8A797D045FF2BB3111D4DA754A6A323D /* Pods-LOCO TestTests-dummy.m */,
+				62D8E6908F434B8C1C0BBAF90B49FDA3 /* Pods-LOCO TestTests-Info.plist */,
+				370F8E6663C82B831AC8AA6EDA6621AD /* Pods-LOCO TestTests-umbrella.h */,
+				DFCCD75B242864A226229B3E5F999F2B /* Pods-LOCO TestTests.debug.xcconfig */,
+				09DFD7651F2AAF969A658B4CDF90976D /* Pods-LOCO TestTests.release.xcconfig */,
+			);
+			name = "Pods-LOCO TestTests";
+			path = "Target Support Files/Pods-LOCO TestTests";
+			sourceTree = "<group>";
+		};
+		87580B076039E4525AD2B34B6F7B0348 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4CD1DBDC77F195A814DBDDEF50519785 /* LocoFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		90F345980C8D5F9E910645E08AF4ED89 /* Pods-LOCO Test */ = {
+			isa = PBXGroup;
+			children = (
+				332ADC09DE0BD028139337A2068A71A2 /* Pods-LOCO Test.modulemap */,
+				6F805AA35ABCB175A9ABF7DAB8380E6D /* Pods-LOCO Test-acknowledgements.markdown */,
+				C2F808100ACA0000A32FCED17A6A15C7 /* Pods-LOCO Test-acknowledgements.plist */,
+				C320D2DE7F6929EB0CDA55371B390D03 /* Pods-LOCO Test-dummy.m */,
+				68465D19AE1DBFF3A41CCCEB700ED391 /* Pods-LOCO Test-frameworks.sh */,
+				A51F9837F2F6A9CD3482E52DA302A242 /* Pods-LOCO Test-Info.plist */,
+				83DFC97328294C629B1200C54D6FCEC2 /* Pods-LOCO Test-umbrella.h */,
+				78525719AC71F26909C59CFD180E7D73 /* Pods-LOCO Test.debug.xcconfig */,
+				7291B0E1EF3A206FB94FE3C54774D698 /* Pods-LOCO Test.release.xcconfig */,
+			);
+			name = "Pods-LOCO Test";
+			path = "Target Support Files/Pods-LOCO Test";
+			sourceTree = "<group>";
+		};
+		C34F19E6E210C87A192216575C48E771 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9357D61506695B4EDB5014C06BE56A43 /* Starscream.modulemap */,
+				21B65F09370A4D9877255EC1C47060A2 /* Starscream-dummy.m */,
+				85C44A9AB6F12498BFC8233B9D599206 /* Starscream-Info.plist */,
+				010F5C43A348BC3C417C21FA354444E2 /* Starscream-prefix.pch */,
+				ECFB158E08A6502A38761C96CB68975B /* Starscream-umbrella.h */,
+				2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */,
+				E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F88E6FFD8D4E4E59D22EC2A27B22C499 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				00B2FEDCAC8A8BACE0F9A4E951E14F8C /* Pods */,
+				F732455830A460C341D5532DF7D7864A /* Products */,
+				5A8450208C10F1E2674F6CD9147A95DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E9E85055D03E8A4C68CA925A8E9BE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92981D655299745129EC250E8B8CBA0E /* LocoFramework.modulemap */,
+				EE87E4212B3ACE066022F59CC9410D09 /* LocoFramework-dummy.m */,
+				893FFD7953B9C81B71DE7783B3FF0B57 /* LocoFramework-Info.plist */,
+				0164F8FAF96F8AF034A9F9F7E9AE6166 /* LocoFramework-prefix.pch */,
+				63589FB5843A97171FFA416F25FF5D48 /* LocoFramework-umbrella.h */,
+				8A05E1C4E11EC5E3D964BBB73665EC81 /* LocoFramework.debug.xcconfig */,
+				F2E9474471F62C6AB56C63C39BD3AD97 /* LocoFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../LOCO Test/Pods/Target Support Files/LocoFramework";
+			sourceTree = "<group>";
+		};
+		F732455830A460C341D5532DF7D7864A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BF6AC4F08E2DAAF4EBBF515BB013E /* LocoFramework */,
+				B9FEC99F6480B872ABBFBE6AE74D766A /* Pods-LOCO Test */,
+				2F9B59BEAD8CDF12EF9E199B20F85BA1 /* Pods-LOCO Test-LOCO TestUITests */,
+				C81C218ABA6AD130B453E6DCE9C468C9 /* Pods-LOCO TestTests */,
+				891B2270823847ED23F2ECFC28F935EC /* Starscream */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F88E6FFD8D4E4E59D22EC2A27B22C499 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				224C3D53FB5D12BCFD0E9942231DC4A0 /* LocoFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C4C24B5C55B4E2E8CAD16AB948C8BC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB78D9E7D392EAF1ABB6BBA469488119 /* LocoFramework.h in Headers */,
+				42068E1C67D65DC23B20BA6EDB2F02D7 /* LocoFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F18670D7BF3DDBC493588E2A7FAE39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A026551D937B257E5A48826A0D6D16 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4D6F2E51A8DBE1587AEF93FBDCDD52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D9C59FAF7222C98A6FCB08F734B04B /* Pods-LOCO Test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEA1AC9B575500833B816DC5D6FDE56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9F4B2069B673D75009E5E7E5198858 /* Pods-LOCO TestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA07DBF64097A3A19D39ED9DDF30207 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41498FD645C375B00620F72F0F0325AB /* Pods-LOCO Test-LOCO TestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776282DC71DE79D28009599CD647B7C5 /* Build configuration list for PBXNativeTarget "LocoFramework" */;
+			buildPhases = (
+				3C4C24B5C55B4E2E8CAD16AB948C8BC6 /* Headers */,
+				BCDD2A2A382D263AAAA9766EF84E806B /* Sources */,
+				E37E9AF1C16BD110838BC9417324A981 /* Frameworks */,
+				69E56C9F039EA58487A0AB7ACE7D1A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DA7DE60DFD161B81DBF5C95FE0A5CC /* PBXTargetDependency */,
+			);
+			name = LocoFramework;
+			productName = LocoFramework;
+			productReference = FE4BF6AC4F08E2DAAF4EBBF515BB013E /* LocoFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D609D403D144E3F723ACC0AA12E1A44 /* Pods-LOCO Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBED502E2D98C02484B85CEEA8C998F0 /* Build configuration list for PBXNativeTarget "Pods-LOCO Test" */;
+			buildPhases = (
+				7C4D6F2E51A8DBE1587AEF93FBDCDD52 /* Headers */,
+				8684BA59E58E46B54AF3B6D7BFCF412F /* Sources */,
+				A24BA9E2283CFEF5F7764E375AE42505 /* Frameworks */,
+				465140A5D3824EE3594421F50D927400 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73F8FE24F2F3542412D809809EC9C008 /* PBXTargetDependency */,
+				025A9BF7E86C87C9C9D5DD6B1C8A9743 /* PBXTargetDependency */,
+			);
+			name = "Pods-LOCO Test";
+			productName = Pods_LOCO_Test;
+			productReference = B9FEC99F6480B872ABBFBE6AE74D766A /* Pods-LOCO Test */;
+			productType = "com.apple.product-type.framework";
+		};
+		80E7B1CC8F7C82C3C0F0E96D4C43B39C /* Pods-LOCO Test-LOCO TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5787A77CE32E43A085FE8A28933FCEE0 /* Build configuration list for PBXNativeTarget "Pods-LOCO Test-LOCO TestUITests" */;
+			buildPhases = (
+				DBA07DBF64097A3A19D39ED9DDF30207 /* Headers */,
+				E7C2432AFD86F43689F0D14542667E2A /* Sources */,
+				9CBAD607F8327D76AE295650876BC0E2 /* Frameworks */,
+				9EC1DF57C85767DA35410F2FC5B05610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4137B38117D26D77FAA760D11363389A /* PBXTargetDependency */,
+				8CC9949813FC79777A30C589F2312268 /* PBXTargetDependency */,
+			);
+			name = "Pods-LOCO Test-LOCO TestUITests";
+			productName = Pods_LOCO_Test_LOCO_TestUITests;
+			productReference = 2F9B59BEAD8CDF12EF9E199B20F85BA1 /* Pods-LOCO Test-LOCO TestUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BE7FAA45DF9E159836339F4FC292B7A /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildPhases = (
+				52F18670D7BF3DDBC493588E2A7FAE39 /* Headers */,
+				C889914A5C5EA7F04182D91854EA65BD /* Sources */,
+				5FB3ECD67349053B18CA13DC32F81E9D /* Frameworks */,
+				19D1339F832A6B166BD1A33C455F1C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starscream;
+			productName = Starscream;
+			productReference = 891B2270823847ED23F2ECFC28F935EC /* Starscream */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAA1335BD55C4E3C071DB41116E843BA /* Pods-LOCO TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC6CFB4E58A7016E91E8D4F0315A1AA /* Build configuration list for PBXNativeTarget "Pods-LOCO TestTests" */;
+			buildPhases = (
+				9EEA1AC9B575500833B816DC5D6FDE56 /* Headers */,
+				F5DCBEE488EF200700117278C92781C8 /* Sources */,
+				A510A51EB79D4AFAF6B89DFBBF60EFBC /* Frameworks */,
+				5DDE6B3947317AC6C4F2BD2D8DE26BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF7332BE4CC778A2190ABC93369B78A /* PBXTargetDependency */,
+			);
+			name = "Pods-LOCO TestTests";
+			productName = Pods_LOCO_TestTests;
+			productReference = C81C218ABA6AD130B453E6DCE9C468C9 /* Pods-LOCO TestTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F732455830A460C341D5532DF7D7864A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */,
+				5D609D403D144E3F723ACC0AA12E1A44 /* Pods-LOCO Test */,
+				80E7B1CC8F7C82C3C0F0E96D4C43B39C /* Pods-LOCO Test-LOCO TestUITests */,
+				AAA1335BD55C4E3C071DB41116E843BA /* Pods-LOCO TestTests */,
+				9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D1339F832A6B166BD1A33C455F1C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465140A5D3824EE3594421F50D927400 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DDE6B3947317AC6C4F2BD2D8DE26BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E56C9F039EA58487A0AB7ACE7D1A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC1DF57C85767DA35410F2FC5B05610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8684BA59E58E46B54AF3B6D7BFCF412F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE6DEDF501ED2B304144E2409786C46 /* Pods-LOCO Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCDD2A2A382D263AAAA9766EF84E806B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CC420BE25881D53BC6381B01B52B09 /* LocoFramework-dummy.m in Sources */,
+				3B529FE614AD05BB12E9D9BA6179C318 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C889914A5C5EA7F04182D91854EA65BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9E4DEECDD84760469EB0E182259F54 /* Compression.swift in Sources */,
+				CA47D9312926F2B9FD63AB318B537AF6 /* Data+Extensions.swift in Sources */,
+				D20ED933637514B98FE4B2075583B2EC /* Engine.swift in Sources */,
+				06305CFF4EFF1CF83C0E86E03EF3FDF3 /* FoundationHTTPHandler.swift in Sources */,
+				D6614D1295876D640161F50C231C3C59 /* FoundationHTTPServerHandler.swift in Sources */,
+				B508E78BBC7363824DB90BA7052BDC1B /* FoundationSecurity.swift in Sources */,
+				219D62D18B0715481D8ED112E90178F9 /* FoundationTransport.swift in Sources */,
+				2028286436171ECC4D0A103AC87E8417 /* FrameCollector.swift in Sources */,
+				18002B686696DFD9E2137A26FA1CF804 /* Framer.swift in Sources */,
+				378370DB507C9FCCD7EF02D8A2717ECB /* HTTPHandler.swift in Sources */,
+				D19BEEDACA2B4CCF3716D4AE1A6DBC55 /* NativeEngine.swift in Sources */,
+				39C7FF04486D786A0E4A3DD95EFD10F8 /* Security.swift in Sources */,
+				B0394FF0218C84CD00A2E418520FDF2A /* Server.swift in Sources */,
+				79869221D785202277B1E88B2915AEAF /* Starscream-dummy.m in Sources */,
+				30C96CEAF92639F36F82219C13A83F0E /* StringHTTPHandler.swift in Sources */,
+				D111EA445C13A219FE36219280FDBF2F /* TCPTransport.swift in Sources */,
+				341481F372677E9CA94E6C4F40B231D1 /* Transport.swift in Sources */,
+				455A997042B4CE6C0CB3FD5EA75E2DC1 /* WebSocket.swift in Sources */,
+				1F6B3C9EABC31D2C063CFF8611E21ED3 /* WebSocketServer.swift in Sources */,
+				5E03660E899689127F304F471570AB44 /* WSCompression.swift in Sources */,
+				FE853283396F1A3744C2B7ACA268566B /* WSEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C2432AFD86F43689F0D14542667E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B218F1F4A808D1ED76D344586C4B62DE /* Pods-LOCO Test-LOCO TestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DCBEE488EF200700117278C92781C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D0F9906E6274F1F0E1CEE1898393B2 /* Pods-LOCO TestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025A9BF7E86C87C9C9D5DD6B1C8A9743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = EE765AAF1CB867662679E1716A29531D /* PBXContainerItemProxy */;
+		};
+		4137B38117D26D77FAA760D11363389A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocoFramework;
+			target = 17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */;
+			targetProxy = 4215E5289F16A5FA1B9D9C2BAEAB9F36 /* PBXContainerItemProxy */;
+		};
+		73F8FE24F2F3542412D809809EC9C008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocoFramework;
+			target = 17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */;
+			targetProxy = 6829801B3631EC72DD1311EDD7E1F584 /* PBXContainerItemProxy */;
+		};
+		8CC9949813FC79777A30C589F2312268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = 05E92C9DC23C9CD1FE5C457040E509CE /* PBXContainerItemProxy */;
+		};
+		DEF7332BE4CC778A2190ABC93369B78A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LOCO Test";
+			target = 5D609D403D144E3F723ACC0AA12E1A44 /* Pods-LOCO Test */;
+			targetProxy = F1F9B48F3177ABD713D96FFB98B8FB55 /* PBXContainerItemProxy */;
+		};
+		F9DA7DE60DFD161B81DBF5C95FE0A5CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = 9B78EE4AF6AE03E79D88886319853FF7 /* Starscream */;
+			targetProxy = EB0675857815E5570CA9F9722FCC5D86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1077E117993DD118F77F0DC781892E7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DFD7651F2AAF969A658B4CDF90976D /* Pods-LOCO TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOCO TestTests/Pods-LOCO TestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOCO TestTests/Pods-LOCO TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2E589836921108B3D23402D37738E221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A05E1C4E11EC5E3D964BBB73665EC81 /* LocoFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocoFramework/LocoFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocoFramework/LocoFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocoFramework/LocoFramework.modulemap";
+				PRODUCT_MODULE_NAME = LocoFramework;
+				PRODUCT_NAME = LocoFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		589F4704D22B9B63EC725B4A0BEABA1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCCD75B242864A226229B3E5F999F2B /* Pods-LOCO TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOCO TestTests/Pods-LOCO TestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOCO TestTests/Pods-LOCO TestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		718D88BCE664207761124F79BEA83B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EB770E068F5AD3E40F3EFD7DEB5BFD /* Pods-LOCO Test-LOCO TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A49F4476A087914782C0FF32742DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E9474471F62C6AB56C63C39BD3AD97 /* LocoFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocoFramework/LocoFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocoFramework/LocoFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocoFramework/LocoFramework.modulemap";
+				PRODUCT_MODULE_NAME = LocoFramework;
+				PRODUCT_NAME = LocoFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC623D1439BE68C58C41B938C6DA3089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B8353DB672E6C84ABAF6B044BC47F3 /* Starscream.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4D9E605CC45333A7F8F3076FFF5D800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78525719AC71F26909C59CFD180E7D73 /* Pods-LOCO Test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOCO Test/Pods-LOCO Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOCO Test/Pods-LOCO Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4E6A1ECEB78877925BB911C71C119AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7291B0E1EF3A206FB94FE3C54774D698 /* Pods-LOCO Test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOCO Test/Pods-LOCO Test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOCO Test/Pods-LOCO Test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D882A548217D5D1663D71B7A8435D2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1CF04602B9D61F89BCC51DEA7939B0 /* Starscream.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Starscream-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9994DE849B5090646A9F7EEB140496F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787D019902EA06472FD4C408B5711C9A /* Pods-LOCO Test-LOCO TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LOCO Test-LOCO TestUITests/Pods-LOCO Test-LOCO TestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5787A77CE32E43A085FE8A28933FCEE0 /* Build configuration list for PBXNativeTarget "Pods-LOCO Test-LOCO TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9994DE849B5090646A9F7EEB140496F /* Debug */,
+				718D88BCE664207761124F79BEA83B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776282DC71DE79D28009599CD647B7C5 /* Build configuration list for PBXNativeTarget "LocoFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E589836921108B3D23402D37738E221 /* Debug */,
+				92A49F4476A087914782C0FF32742DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BE7FAA45DF9E159836339F4FC292B7A /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882A548217D5D1663D71B7A8435D2F6 /* Debug */,
+				BC623D1439BE68C58C41B938C6DA3089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBED502E2D98C02484B85CEEA8C998F0 /* Build configuration list for PBXNativeTarget "Pods-LOCO Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D9E605CC45333A7F8F3076FFF5D800 /* Debug */,
+				C4E6A1ECEB78877925BB911C71C119AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC6CFB4E58A7016E91E8D4F0315A1AA /* Build configuration list for PBXNativeTarget "Pods-LOCO TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589F4704D22B9B63EC725B4A0BEABA1E /* Debug */,
+				1077E117993DD118F77F0DC781892E7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - LocoFramework (1.0.0):
+    - Starscream (~> 4.0.4)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - LocoFramework (from `../LocoFramework/`)
+
+SPEC REPOS:
+  trunk:
+    - Starscream
+
+EXTERNAL SOURCES:
+  LocoFramework:
+    :path: "../LocoFramework/"
+
+SPEC CHECKSUMS:
+  LocoFramework: f217b5faee387a4ba092009a6f685a9b79ecdc02
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: a3c23beeb563cb733d71423ea59a07b38d2f9a2e
+
+COCOAPODS: 1.11.3

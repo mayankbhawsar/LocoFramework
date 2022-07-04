@@ -1,0 +1,24 @@
+{
+  "name": "LocoFramework",
+  "version": "1.0.0",
+  "summary": "Loco Framework",
+  "description": "Oh, the problem was very simple actually. I was simply being unobservant",
+  "homepage": "https://github.com/mayankbhawsar/LocoFramework",
+  "license": "MIT",
+  "authors": {
+    "mayank bhawsar": "mayank.bhawsar@5exceptions.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/mayankbhawsar/LocoFramework.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "LocoFramework/**/*.{h,m,swift}",
+  "dependencies": {
+    "Starscream": [
+      "~> 4.0.4"
+    ]
+  }
+}
